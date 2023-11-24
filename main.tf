@@ -9,11 +9,11 @@ resource "google_storage_bucket" "gcs_bucket" {
 }
 
 resource "google_compute_network" "vpc_network" {
-  name = "terraform-pavithra-network"
+  name = "terraform-ajitha-network"
 }
 
 resource "google_compute_instance" "vm_instance" {
-  name         = "terraform-pavithra-instance"
+  name         = "terraform-ajitha-instance"
   machine_type = "f1-micro"
 
   boot_disk {
