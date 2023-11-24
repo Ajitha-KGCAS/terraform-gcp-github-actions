@@ -7,3 +7,7 @@ resource "google_storage_bucket" "gcs_bucket" {
   name     = "test-bucket-ajitha-project-5678"
   location = "europe-west2"
 }
+
+resource "google_compute_network" "vpc_network" {
+  name = "terraform-network"
+}
